@@ -91,7 +91,7 @@ while True:
             
             if num_a_deletar_str == '0':
                 print("Operação cancelada. Voltando ao menu.")
-                continue # Volta para o início do loop while
+                continue
             
             try:
                 num_a_deletar = int(num_a_deletar_str)
@@ -113,7 +113,7 @@ while True:
 
             if num_a_atualizar_str == '0':
                 print("Operação cancelada. Voltando ao menu.")
-                continue # Volta para o início do loop while
+                continue 
 
             try:
                 num_a_atualizar = int(num_a_atualizar_str)

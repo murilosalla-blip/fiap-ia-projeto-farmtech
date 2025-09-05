@@ -3,7 +3,7 @@ library(httr)
 library(jsonlite)
 
 api_key <- "0a4b6aa50a754c90e3745ceb90854eb0"
-cidade <- "Piracicaba,BR" # Cidade e código do país
+cidade <- "Piracicaba,BR"
 
 url <- paste0("https://api.openweathermap.org/data/2.5/weather?q=", cidade, "&appid=", api_key, "&units=metric&lang=pt_br")
 
